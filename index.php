@@ -60,9 +60,9 @@ session_start();
                     <label>Select one to proceed:</label>
                     <select class="mdb-select md-form md-outline colorful-select dropdown-primary" name="authenticationType" style="background-color: #f7f7f7; border-radius: 13px; padding-left:10px; color:#545556; border-color: #a0a0b1;">
                       <option class="myClass" value="" disabled selected>Choose your option</option>
-                      <option value="1">Authentication 1</option>
+                      <option value="1">Password based Authentication</option>
                       <option value="2">Authentication with Recaptcha</option>
-                      <option value="3">Authentication 3</option>
+                      <!--<option value="3">Authentication 3</option>-->
                     </select>
                 </div>
                 <br>
