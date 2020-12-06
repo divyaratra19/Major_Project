@@ -2,8 +2,8 @@
 session_start();
 ?>
 <?php
-$connection= mysqli_connect('sql12.freesqldatabase.com','sql12366792','CcBjkKQZLf');
-$db=mysqli_select_db($connection,'sql12366792');
+$connection= mysqli_connect('sql12.freesqldatabase.com','sql12374385','21p4uBheY7');
+$db=mysqli_select_db($connection,'sql12374385');
 if(!$connection)
 {
     echo "Connection error";
