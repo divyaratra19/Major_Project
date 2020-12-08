@@ -2,8 +2,8 @@
 session_start();
 ?>
 <?php
-$connection= mysqli_connect('sql12.freesqldatabase.com','sql12366792','CcBjkKQZLf');
-$db=mysqli_select_db($connection,'sql12366792');
+$connection= mysqli_connect('sql12.freesqldatabase.com','sql12380828','SQfuwKJ4W2');
+$db=mysqli_select_db($connection,'sql12380828');
 if(!$connection)
 {
     echo "Connection error";
@@ -30,6 +30,7 @@ if(isset($_POST['login_btn']))
         $query="insert into users (firstname, lastname, username,  password, email, phone) values ('$firstname','$lastname','$username','$pwd','$email','$phone')"; 
         if(mysqli_query($connection, $query))
         {
+            $_SESSION['status']= 'User registered! Kindly login';
             header("Location: auth1.php");
         }
         else{

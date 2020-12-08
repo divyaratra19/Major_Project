@@ -2,8 +2,8 @@
 session_start();
 ?>
 <?php
-$connection= mysqli_connect('sql12.freesqldatabase.com','sql12366792','CcBjkKQZLf');
-$db=mysqli_select_db($connection,'sql12366792');
+$connection= mysqli_connect('sql12.freesqldatabase.com','sql12380828','SQfuwKJ4W2');
+$db=mysqli_select_db($connection,'sql12380828');
 if(!$connection)
 {
     echo "Connection error";
@@ -18,7 +18,7 @@ if(isset($_POST['login_btn']))
     
     if(mysqli_fetch_array($query_run))
     {
-        header('Location: ../main.html');
+        header('Location: success.html');
     }
     else
     {
