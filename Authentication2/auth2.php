@@ -70,7 +70,7 @@ session_start();
 				<br>
 				<div class="form-group">
 				  <a href="register.php" >Create Account</a>
-				  <a href="../index.php" class="align-self-end"  style="float:right">Back to Main</a>
+				  <a href="https://major-1.herokuapp.com/" class="align-self-end"  style="float:right">Back to Main</a>
 				</div>
                 
 				  
